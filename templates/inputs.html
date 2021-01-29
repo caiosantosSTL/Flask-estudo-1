@@ -1,0 +1,14 @@
+{% extends "leioute.html" %}
+
+{% block body %}
+
+<!--url_for('infoss') o nome coloca do metodo-->
+<form action="/infos/show", method="POST"> 
+
+    <input type="text" name="nomex" placeholder="Coloca o nome">
+    <button>Vai</button>
+
+</form>
+
+
+{% endblock %}

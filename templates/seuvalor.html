@@ -1,0 +1,18 @@
+{% extends "leioute.html" %}
+
+{% block body %}
+    <h1>Aqui veremos o valor daquilo colocado no URI</h1>
+    <h2>Olha o valor aqui -> {{val}}</h2>
+
+    {% if num == 1%}
+        <p>Valor unitario</p>
+    {% else %}
+        <p>Valor nao é nitario</p>
+    {% endif %}
+
+    {% for x in aranj %}
+        <p>aranjs</p>
+    {%endfor%}
+
+{% endblock %}
+    
